@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PhysicsEngine : MonoBehaviour
 {
-    public float mass = 1f;
-    public Vector3 velocityVector; // average velocity this FixedUpdate()
-    public Vector3 netForceVector;
+    public float mass = 1f;        // [kg]
+    public Vector3 velocityVector; // [m/s] average velocity this FixedUpdate()
+    public Vector3 netForceVector; // N [kg m/s^2]
     private List<Vector3> forceVectorList = new List<Vector3>();
 
     // Use this for initialization

@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eede98d401757694f80bb7cb5e5b9baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1
+  mass: 2000000
   velocityVector: {x: 0, y: 0, z: 0}
   netForceVector: {x: 0, y: 0, z: 0}
   showTrails: 1
@@ -341,9 +341,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 868237464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3034a1e78bc858c4f957237b65ec2d5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bace2f72a362774491efc4efa401214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuelMass: 1000
+  maxThrust: 2278
+  thrustPercent: 0
+  thrustUnitVector: {x: 0, y: 1, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
