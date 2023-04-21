@@ -328,13 +328,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eede98d401757694f80bb7cb5e5b9baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mass: 1
   velocityVector: {x: 0, y: 0, z: 0}
   netForceVector: {x: 0, y: 0, z: 0}
-  forceVectorList:
-  - {x: 0, y: 0, z: 2}
-  - {x: 0, y: 2, z: 4}
-  - {x: 0, y: 0, z: 0}
-  - {x: -5, y: -6, z: -6}
+  showTrails: 1
 --- !u!114 &868237470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,10 +341,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 868237464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6db481a40583471792bc96a4c9bc12b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3034a1e78bc858c4f957237b65ec2d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showTrails: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
